@@ -14,7 +14,7 @@
             @auth            
             <livewire:lik :post="$post" />
             @endauth
-           
+            
         </div>
         <div class="p-5 md:p-0">
             <a href="{{route('post.index',$user)}}">
